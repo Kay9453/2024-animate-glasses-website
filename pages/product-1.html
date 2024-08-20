@@ -10,9 +10,13 @@
     <div class="wrap">
         <%- include('./layout/header'); -%>
         <ul class="product-tab container-fluid d-flex">
-            <li><a class="product-tab-link product-tab-link-active py-6 py-md-4" href="product-1.html">OPTICAL</a></li>
+            <!-- <li><a class="product-tab-link product-tab-link-active py-6 py-md-4" href="product-1.html">OPTICAL</a></li>
             <li><a class="product-tab-link py-6 py-md-4" href="product-2.html">SUNGLASSES</a></li>
-            <li><a class="product-tab-link py-6 py-md-4" href="#">FUNCTIONAL</a></li>
+            <li><a class="product-tab-link py-6 py-md-4" href="#">FUNCTIONAL</a></li> -->
+            <!-- 因加上 a 標籤 hover 放大效果，故改寫此段結構-->
+            <li class="product-tab-deco product-tab-link-active"><a class="product-tab-link py-6 py-md-4" href="product-1.html">OPTICAL</a></li>
+            <li class="product-tab-deco"><a class="product-tab-link py-6 py-md-4" href="product-2.html">SUNGLASSES</a></li>
+            <li class="product-tab-deco overflow-hidden"><a class="product-tab-link py-6 py-md-4" href="#">FUNCTIONAL</a></li>
         </ul>
         <div class="product-banner d-flex">
             <picture>

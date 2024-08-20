@@ -501,5 +501,15 @@ input ,textarea{
 // ICON hover 放大效果
 .zoom-out:hover{
     transform: scale(1.1);
+    transition: transform .5s;
 }
 
+// 消除使用 AOS 動畫產生的 X 軸
+.overflow-hidden{
+    overflow-x: hidden;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}

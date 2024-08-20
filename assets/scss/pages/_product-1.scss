@@ -7,22 +7,29 @@
     @include mobile{
         font-size: $fs-1;
     }
-    li{
-        width: 33.33333%;
-        border: 1px solid #DCDCDC;
-    }
+    // li{
+    //     width: 33.33333%;
+    //     border: 1px solid #DCDCDC;
+    // }
 }
+
+.product-tab-deco{
+    width: 33.33333%;
+    border: 1px solid #DCDCDC;
+}
+
 .product-tab-link{
     text-align: center;
     width: 100%;
-    border-bottom: 8px solid transparent;
-    &:hover{
-        border-bottom: 8px solid $primary;
-    }
+    // border-bottom: 8px solid transparent;
+    // &:hover{
+    //     border-bottom: 8px solid $primary;
+    // }
 }
 .product-tab-link-active{
     border-bottom: 8px solid $primary;
 }
+
 .product-banner{
     picture{
         width: 50%;

@@ -67,6 +67,9 @@
     font-size: $fs-5;
     font-weight: $fw-black;
     text-align: right;
+    &:hover{
+        transform: scale(1);
+    }
     @include pad{
         display: none;
     }
