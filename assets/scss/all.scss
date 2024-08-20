@@ -1,5 +1,28 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+// 第三方套件 venders/
 
 
-@import './pages/index.scss';
+// 基本樣式設定 base/
+@import "./base/reset";
+@import "./base/base";
+@import "./base/fontStyle";
+
+// 輔助型樣式 helper/
+@import "./helper/variable";
+@import "./helper/mixin";
+@import "./helper/utils";
+
+// 共用版型 layout/
+@import "./layout/header";
+@import "./layout/footer";
+
+// 共用元件 components/
+@import "./components/button";
+@import "./components/pagination";
+
+// 只針對某一頁 pages/
+@import "./pages/index";
+@import "./pages/product-1";
+@import "./pages/location";
+@import "./pages/qa";
+@import "./pages/blog";
+@import "./pages/blog-inner";
